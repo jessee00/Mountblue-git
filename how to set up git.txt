@@ -1,0 +1,22 @@
+for Ubuntu or any operating Sys1tem
+set up with ssh key local & remote
+
+ 1. Open terminal--> to make new folder or directory [mkdir gitlearn]
+ 2. in terminal [cd gitlearn]--> to access the directory
+ 3. open vscode and open gitlearn folder and make files html.txt/style.css (do work)
+
+ 4. to commit work to local repo (in terminal)
+     a. git init
+     b. git add html.txt / git add . (to add all files)
+     c. git commit -m "add files to git"
+
+5. to push files to github via ssh key
+     a. generate ssh key [ssh-keygen] (just press ok to everything dont write anything)
+     b. computer--> home --> show hidden files --> .ssh(folder)-> id.rsa.pub --> copy ssh key from there 
+     c. github.com & create new ssh key & paste this ssh key into that
+     d. github.com --> make new repo --> in code section (follow commands)
+     e. in terminal paste --> [git branch -M main]
+     f. in terminal paste --> [git remote add origin git@github.com:jessee00/Mountblue-git.git]
+     g. in terminal paste --> [git remote -u push main]
+
+
