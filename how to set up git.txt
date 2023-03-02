@@ -13,10 +13,10 @@ set up with ssh key local & remote
 5. generate ssh key (one time)
 
    --used to connect your local repo to remote(github) repo
-     a. generate ssh key [ssh-keygen] (just press ok to everything dont write anything)
+     a. Directly(in terminal) type [ssh-keygen] (just press ok to everything dont write anything)
      b. computer--> home --> show hidden files --> .ssh(folder)-> id.rsa.pub --> copy ssh key from there 
      c. github.com & create new ssh key & paste this ssh key into that
-     
+
 6. to push files to github via ssh key
 
      d. github.com --> make new repo --> in code section (follow commands)
