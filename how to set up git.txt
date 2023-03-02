@@ -10,17 +10,22 @@ set up with ssh key local & remote
      b. git add html.txt / git add . (to add all files)
      c. git commit -m "add files to git"
 
-5. to push files to github via ssh key
+5. generate ssh key (one time)
+
+   --used to connect your local repo to remote(github) repo
      a. generate ssh key [ssh-keygen] (just press ok to everything dont write anything)
      b. computer--> home --> show hidden files --> .ssh(folder)-> id.rsa.pub --> copy ssh key from there 
      c. github.com & create new ssh key & paste this ssh key into that
+     
+6. to push files to github via ssh key
+
      d. github.com --> make new repo --> in code section (follow commands)
      e. in terminal paste --> [git branch -M main]
      f. in terminal paste --> [git remote add origin git@github.com:jessee00/Mountblue-git.git]
      g. in terminal paste --> [git push -u origin main]
 
 
-6. whenever you make changes to the repository then always have to again 
+7. whenever you make changes to the repository then always have to again 
    a. git add .
    b. git commit -m "write text"
    c. git push -u origin main
